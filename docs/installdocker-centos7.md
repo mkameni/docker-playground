@@ -26,4 +26,5 @@ $ sudo yum install docker-ce-<VERSION STRING>
 License
 ----
 MIT
+
 **Free Software, Hell Yeah!**
