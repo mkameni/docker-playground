@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jenkins:
+    image: jenkins/jenkins:lts-centos
+    ports:
+      - "5000:5000"
+      - "8010:8000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+
+volumes:
+  jenkins_home: {}
